@@ -2,13 +2,13 @@ package week03.invoice;
 
 public class Invoice {
 
-    // Instance variables
+    
     private String partNumber;
     private String partDescription;
     private int quantity;
     private double pricePerItem;
 
-    // Constructor
+    
     public Invoice(String partNumber, String partDescription, int quantity, double pricePerItem) {
         this.partNumber = partNumber;
         this.partDescription = partDescription;
@@ -16,7 +16,7 @@ public class Invoice {
         this.pricePerItem = pricePerItem;
     }
 
-    // Getter methods
+    
     public String getPartNumber() {
         return partNumber;
     }
@@ -33,7 +33,7 @@ public class Invoice {
         return pricePerItem;
     }
 
-    // Setter methods
+    
     public void setPartNumber(String partNumber) {
         this.partNumber = partNumber;
     }
